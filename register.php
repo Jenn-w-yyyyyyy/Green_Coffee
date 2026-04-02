@@ -26,9 +26,11 @@
 
         if ($select_user->rowCount() > 0) {
             $message[] = 'email already exist';
+            echo 'email already exist';
         } else {
             if ($pass != $cpass) {
                 $message[] = 'confirm your password';
+                echo 'confirm your password';
             } else {
                 $insert_user = $conn->prepare("INSERT INTO `users` (id, name, email, password) VALUES(?,?,?,?)");
                 $insert_user->execute([$id, $name, $email, $pass]);

@@ -108,7 +108,7 @@ session_start();
         </div>
     </div>
 </section>
-</section>
+
 <div class="about">
     <div class="row">
         <div class="img-box">
@@ -131,7 +131,7 @@ session_start();
         <h1>what people say about us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorum deserunt minus veniam <br> tenetur</p>
 </div>
-    </div>
+    
     <div class="container">
         <div class="testimonial-item active">
             <img src="img/01.jpg">
@@ -140,6 +140,7 @@ session_start();
             
         </div>
 
+    
         <div class="testimonial-item">
             <img src="img/02.jpg">
             <h1>john smith</h1>
@@ -152,10 +153,10 @@ session_start();
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
         </div>
-        <div class="left-arrow" onclick="nextSlide()">
+        <div class="left-arrow">
     <i class="bx bxs-left-arrow-alt"></i>
 </div>
-<div class="right-arrow" onclick="prevSlide()">
+<div class="right-arrow">
     <i class="bx bxs-right-arrow-alt"></i>
 </div>
 

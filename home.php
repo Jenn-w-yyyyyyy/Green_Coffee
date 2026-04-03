@@ -35,7 +35,7 @@ session_start();
                 <div class="slider__slider slide1">
                     <div class="overlay"></div>
                     <div class="slide-detail">
-                        <h1>Lorem ipsum dolor sit</h1>
+                        <h1>Welcome to green cafe</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cum? Corrupti placeat ex</p>
                         <a href="view_products.php" class="btn">shop now</a>
                     </div>
@@ -88,8 +88,8 @@ session_start();
                 </div>
 
             </div> 
-            <div class="left-arrow"><i class="bx bxs-left-arrow"></i></div>
-            <div class="right-arrow"><i class="bx bxs-right-arrow"></i></div>
+            <!-- <div class="left-arrow"><i class="bx bxs-left-arrow"></i></div>
+            <div class="right-arrow"><i class="bx bxs-right-arrow"></i></div> -->
 
         </section>
         <section class="thumb">

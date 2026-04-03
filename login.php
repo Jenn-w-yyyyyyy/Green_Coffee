@@ -51,12 +51,12 @@
         <form action="" method="post">
 
             <div class="input-field">
-                <p>your email <sup>*</sup></p>
+                <p>your email</p>
                 <input type="email" name="email" required placeholder="enter your email" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
             </div>
 
             <div class="input-field">
-                <p>your password <sup>*</sup></p>
+                <p>your password</p>
                 <input type="password" name="pass" required placeholder="enter your password" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
             </div>
 

@@ -50,10 +50,10 @@
                 <h3>newsletter</h3>
                 <p>Sign Up For Newsletter</p>
                 <div class="social-links">
-                    <i class="bx bxl-instagram"></i>
+                    <a href="https://www.instagram.com/_.jenn.yyyy_?igsh=MW4xa244OXE5aGtqOA=="><i class="bx bxl-instagram"></i></a>
                     <i class="bx bxl-twitter"></i>
                     <i class="bx bxl-behance"></i>
-                    <i class="bx bxl-youtube"></i>
+                    <a href="https://youtu.be/ZoLdDuM6AIY?si=vjuIScZpK3rzHiSv"><i class="bx bxl-youtube"></i></a>
                     <i class="bx bxl-whatsapp"></i>
                 </div>
             </div>

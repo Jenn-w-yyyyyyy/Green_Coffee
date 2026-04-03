@@ -1,3 +1,8 @@
+<script>
+function confirmLogout() {
+    return confirm("Are you sure you want to logout?");
+}
+</script>
 <header class="header">
    <div class="flex">
       <a href="home.php" class="logo"><img src="img/logo.jpg"></a>
@@ -26,12 +31,16 @@
          <i class="bx bx-list-plus" id="menu-btn" style="font-size: 2rem;"></i>
       </div>
       <div class="user-box">
-         <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
-         <p>Email : <span><?php echo $_SESSION['user_email']; ?></span></p>
+       <p>username : 
+   <span><?= $_SESSION['user_name'] ?? 'Guest'; ?></span>
+</p>
+<p>Email : 
+   <span><?= $_SESSION['user_email'] ?? 'Not logged in'; ?></span>
+</p>
          <a href="login.php" class="btn">login</a>
          <a href="register.php" class="btn">register</a>
          <form method="post">
-            <button type="submit" name="logout" class="logout-btn">log out</button>
+           <button type="submit" name="logout" class="logout-btn" onclick="return confirmLogout()">log out</button>
          </form>
       </div>
    </div>

@@ -89,61 +89,67 @@ if (isset($_POST['place_order'])) {
       <div class="row">
          <form method="post">
             <h3>billing details</h3>
-            <div class="flex">
-               <div class="box">
-                  <div class="input-field">
-                     <p>your name <span>*</span></p>
-                     <input type="text" name="name" required maxlength="50" placeholder="Enter Your name" class="input">
-                  </div>
-               </div>
-               
-               <div class="box">
-                  <div class="input-field">
-                     <p>your number <span>*</span></p>
-                     <input type="number" name="number" required maxlength="10" placeholder="Enter your number" class="input">
-                  </div>
-                  <div class="input-field">
-                     <p>your email <span>*</span></p>
-                     <input type="email" name="email" required maxlength="100" placeholder="Enter your email" class="input">
-                  </div>
-                  <div class="input-field">
-                     <p>payment method<span>*</span></p>
-                     <select name="method" class="input">
-                       <option value="cash on delivery">cash on delivery</option>
-                       <option value="credit or debit card">credit or debit card</option>
-                       <option value="net banking">net banking</option>
-                     </select>
-                  </div>
-                  <div class="input-field">
-                     <p>address type<span>*</span></p>
-                     <select name="address_type" class="input">
-                       <option value="home">home</option>
-                       <option value="office">office</option>
-                     </select>
-                  </div>
-               </div>
-               <div class="box">
-                <div class="input-field">
+<div class="flex">
+
+   <div class="input-field">
+      <p>your name <span>*</span></p>
+      <input type="text" name="name" required class="input">
+   </div>
+
+   <div class="input-field">
+      <p>your number <span>*</span></p>
+      <input type="number" name="number" required class="input">
+   </div>
+
+   <div class="input-field">
+      <p>your email <span>*</span></p>
+      <input type="email" name="email" required class="input">
+   </div>
+
+   <div class="input-field">
+      <p>payment method <span>*</span></p>
+      <select name="method" class="input">
+   <option value="">select payment method</option>
+   <option value="cash on delivery">cash on delivery</option>
+   <option value="credit or debit card">credit or debit card</option>
+   <option value="net banking">net banking</option>
+</select>
+   </div>
+
+   <div class="input-field">
+      <p>address type <span>*</span></p>
+     <select name="address_type" class="input">
+   <option value="">select address type</option>
+   <option value="home">home</option>
+   <option value="office">office</option>
+</select>
+   </div>
+
+   <div class="input-field full">
       <p>address line 01 <span>*</span></p>
-      <input type="text" name="flat" required maxlength="50" placeholder="e.g flat & building number" class="input">
+      <input type="text" name="flat" required class="input">
    </div>
-   <div class="input-field">
+
+   <div class="input-field full">
       <p>address line 02 <span>*</span></p>
-      <input type="text" name="street" required maxlength="50" placeholder="e.g street name" class="input">
+      <input type="text" name="street" required class="input">
    </div>
+
    <div class="input-field">
-      <p>city name <span>*</span></p>
-      <input type="text" name="city" required maxlength="50" placeholder="Enter your city name" class="input">
+      <p>city <span>*</span></p>
+      <input type="text" name="city" required class="input">
    </div>
+
    <div class="input-field">
-      <p>country name <span>*</span></p>
-      <input type="text" name="country" required maxlength="50" placeholder="Enter your city name" class="input">
+      <p>country <span>*</span></p>
+      <input type="text" name="country" required class="input">
    </div>
+
    <div class="input-field">
       <p>pincode <span>*</span></p>
-      <input type="text" name="pincode" required maxlength="6" placeholder="110022" min="0" max="999999" class="input">
+      <input type="text" name="pincode" required class="input">
    </div>
-</div>
+
 </div>
    
 <button type="submit" name="place_order" class="btn">place order</button>
